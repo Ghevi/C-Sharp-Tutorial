@@ -10,6 +10,8 @@ namespace Test1
     {
         static void Main(string[] args)
         {
+            int num = Convert.ToInt32("45");
+            Console.WriteLine(num + 5);
 
             Console.ReadLine();
         }
@@ -68,3 +70,11 @@ namespace Test1
 //Console.WriteLine(Math.Sqrt(36)); 
 //Console.WriteLine(Math.Max(4, 90)); 
 //Console.WriteLine(Math.Round(4.3)); 
+
+//Console.Write("Enter your name: ");
+//string name = Console.ReadLine();
+
+//Console.Write("Enter your age: ");
+//string age = Console.ReadLine();
+
+//Console.WriteLine($"Hello {name}, You are {age} years old");
