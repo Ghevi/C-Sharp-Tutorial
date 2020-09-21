@@ -10,16 +10,58 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            int num = Convert.ToInt32("45");
-            Console.WriteLine(num + 5);
-
+            sayHiToUser();
             Console.ReadLine();
+        }
+
+        static void sayHiToUser()
+        {
+            Console.WriteLine("Hello User");
         }
     }
 }
 
 // 
 
+//int[] luckyNumbers = {4, 15, 435, 23, 23423};
+
+//string[] friends = new string[5];
+//friends[0] = "Janni";
+//friends[1] = "Kevin";
+
+//luckyNumbers[1] = 9789;
+
+//Console.WriteLine(luckyNumbers[1]);
+
+
+//string color, pluralNoun, celebrity;
+
+//Console.Write("Type a color: ");
+//color = Console.ReadLine();
+
+//Console.Write("Type a plural noun: ");
+//pluralNoun = Console.ReadLine();
+
+//Console.Write("Type a celebrity: ");
+//celebrity = Console.ReadLine();
+
+//Console.WriteLine($"Roses are {color}");
+//Console.WriteLine($"{pluralNoun} are blue");
+//Console.WriteLine($"I hate {celebrity}");
+
+
+//Console.Write("Enter a number: ");
+//Double num1 = Convert.ToDouble(Console.ReadLine());
+
+//Console.Write("Enter another number: ");
+//Double num2 = Convert.ToDouble(Console.ReadLine());
+
+//Console.WriteLine(num1 + num2);
+
+//int num = Convert.ToInt32("45");
+//Console.WriteLine(num + 5);
+
+//Console.ReadLine();
 
 // float, double, decimal 
 
