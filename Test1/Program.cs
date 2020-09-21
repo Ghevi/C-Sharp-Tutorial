@@ -10,44 +10,6 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            bool isMale = true;
-            bool isTall = false;
-
-            if(isMale && isTall)
-            {
-                Console.WriteLine("You are a tall male");
-            } else
-            {
-                Console.WriteLine("You are either not male or not tall or neither");
-            }
-
-            if (isMale || isTall)
-            {
-                Console.WriteLine("You are a either tall, male or both");
-            }
-            else
-            {
-                Console.WriteLine("You are not a tall male");
-            }
-
-
-
-            if (isMale && isTall)
-            {
-                Console.WriteLine("You are a tall male");
-            }
-            else if(isMale && !isTall)
-            {
-                Console.WriteLine("You are male but not tall");
-            } 
-            else if(!isMale && isTall)
-            {
-                Console.WriteLine("You are tall but not male");
-            }
-            else
-            {
-                Console.WriteLine("You are either not male or not tall or neither");
-            }
 
             Console.ReadLine();
         }
@@ -56,12 +18,76 @@ namespace Test1
 
 // 
 
+//    Console.WriteLine(getMax(100, 9, 221));
+
+//    Console.ReadLine();
+//}
+
+//static int getMax(int num1, int num2, int num3)
+//{
+//    int result;
+    
+//    if(num1 >= num2 && num1 >= num3)
+//    {
+//      result = num1;
+//    }
+//    else if(num2 >= num1 && num2 >= num3)
+//    {
+//      result = num2;
+//    } else
+//    {
+//      result = num3;
+//    }
+
+//    return result;
+//}
+
+
+//bool isMale = true;
+//bool isTall = false;
+
+//if(isMale && isTall)
+//{
+//    Console.WriteLine("You are a tall male");
+//} else
+//{
+//    Console.WriteLine("You are either not male or not tall or neither");
+//}
+
+
+//if (isMale || isTall)
+//{
+//    Console.WriteLine("You are a either tall, male or both");
+//}
+//else
+//{
+//    Console.WriteLine("You are not a tall male");
+//}
+
+
+//if (isMale && isTall)
+//{
+//    Console.WriteLine("You are a tall male");
+//}
+//else if(isMale && !isTall)
+//{
+//    Console.WriteLine("You are male but not tall");
+//} 
+//else if(!isMale && isTall)
+//{
+//    Console.WriteLine("You are tall but not male");
+//}
+//else
+//{
+//    Console.WriteLine("You are either not male or not tall or neither");
+//}
+
 //    //sayHi("Kevin", 18);
 //    //sayHi("Mario", 40);
 //    //sayHi("Alex", 23);
 
 //    Console.WriteLine(cube(3));
-    
+
 //    Console.ReadLine();
 //}
 
