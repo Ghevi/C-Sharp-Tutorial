@@ -10,6 +10,46 @@ namespace Test1
     {
         static void Main(string[] args)
         {
+            bool isMale = true;
+            bool isTall = false;
+
+            if(isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            } else
+            {
+                Console.WriteLine("You are either not male or not tall or neither");
+            }
+
+            if (isMale || isTall)
+            {
+                Console.WriteLine("You are a either tall, male or both");
+            }
+            else
+            {
+                Console.WriteLine("You are not a tall male");
+            }
+
+
+
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            }
+            else if(isMale && !isTall)
+            {
+                Console.WriteLine("You are male but not tall");
+            } 
+            else if(!isMale && isTall)
+            {
+                Console.WriteLine("You are tall but not male");
+            }
+            else
+            {
+                Console.WriteLine("You are either not male or not tall or neither");
+            }
+
+            Console.ReadLine();
         }
     }
 }
