@@ -10,18 +10,32 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            sayHiToUser();
-            Console.ReadLine();
-        }
-
-        static void sayHiToUser()
-        {
-            Console.WriteLine("Hello User");
         }
     }
 }
 
 // 
+
+//    //sayHi("Kevin", 18);
+//    //sayHi("Mario", 40);
+//    //sayHi("Alex", 23);
+
+//    Console.WriteLine(cube(3));
+    
+//    Console.ReadLine();
+//}
+
+//static int cube(int num)
+//{
+//    return Convert.ToInt32(Math.Pow(num, 3));
+//}
+
+////static void sayHi(string name, int age) 
+////{
+////    Console.WriteLine($"Hello {name}, you are {age} years old");
+////}
+///
+
 
 //int[] luckyNumbers = {4, 15, 435, 23, 23423};
 
