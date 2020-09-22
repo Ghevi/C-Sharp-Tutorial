@@ -13,10 +13,62 @@ namespace Test1
 
             Console.ReadLine();
         }
+
     }
 }
 
 // 
+
+//int index = 1;
+
+//while (index <= 5)
+//{
+//    Console.WriteLine($"Hello, you are at stage {index}");
+//    index++;
+//}
+
+//int idx = 6;
+//do
+//{
+//    Console.WriteLine($"Hello, now at {idx}");
+//    idx++;
+//} while (idx <= 5);
+
+/* CALCULATOR
+ * Console.Write("Enter a number: ");
+double num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Enter an operator: ");
+string calcOperator = Console.ReadLine();
+
+Console.Write("Enter another number: ");
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+double result = doCalculation(num1, num2, calcOperator);
+Console.Write($"The result is: {result}");
+
+Console.ReadLine();
+        }
+
+static double doCalculation(double num1, double num2, string calcOperator)
+  {
+    switch(calcOperator)
+    {
+    case "+":
+        return num1 + num2;
+    case "-":
+        return num1 - num2;
+    case "*":
+        return num1 * num2;
+    case "/":
+        return num1 / num2;
+    default:
+        Console.WriteLine("Invalid operator");
+    }
+
+    return -1;
+  }
+*/
 
 //    Console.WriteLine(getMax(100, 9, 221));
 
@@ -26,7 +78,7 @@ namespace Test1
 //static int getMax(int num1, int num2, int num3)
 //{
 //    int result;
-    
+
 //    if(num1 >= num2 && num1 >= num3)
 //    {
 //      result = num1;
